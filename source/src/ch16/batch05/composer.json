@@ -1,0 +1,5 @@
+{
+    "require": {
+        "popp5/megaquiz": "*"
+    }
+}

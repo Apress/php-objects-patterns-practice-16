@@ -1,0 +1,7 @@
+{
+    "require": {
+        "abraham/twitteroauth": "0.6.*",
+        "ext-xml": "*",
+        "ext-gd": "*"
+    }
+}

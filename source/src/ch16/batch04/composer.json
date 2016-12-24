@@ -1,0 +1,23 @@
+{
+    "name": "popp5/megaquiz",
+    "description": "a truly mega quiz",
+    "authors": [
+        {
+            "name": "matt zandstra",
+            "email": "matt@getinstance.com"
+        }
+    ],  
+    "license": "Apache-2.0",
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "require": {
+        "abraham/twitteroauth": "0.6.*",
+        "ext-xml": "*"
+    },
+    "autoload": {
+        "psr-4": { 
+            "popp5\\megaquiz\\": ["src"]
+        }
+    }
+}

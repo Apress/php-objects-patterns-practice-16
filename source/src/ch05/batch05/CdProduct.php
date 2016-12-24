@@ -1,0 +1,14 @@
+<?php
+declare(strict_types=1);
+
+namespace popp\ch05\batch05;
+
+class CdProduct
+{
+    public $coverUrl = "cover url";
+
+    public function getTitle()
+    {
+        return "fake title";
+    }
+}

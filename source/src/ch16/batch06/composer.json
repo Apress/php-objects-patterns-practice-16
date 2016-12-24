@@ -1,0 +1,12 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:getinstance/api_util.git"
+        }
+    ],
+    "require": {
+        "popp5/megaquiz": "*",
+        "getinstance/api_util": "v1.0.3"
+    }
+}
