@@ -34,7 +34,7 @@ class StringLiteralParse extends Parser
             $string .= $scanner->token();
         }
 
-        if ($string && ! $this->discard) {
+        if ($ret && ! $this->discard) {
             $scanner->getContext()->pushResult($string);
         }
 
